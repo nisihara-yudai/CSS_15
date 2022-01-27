@@ -87,11 +87,11 @@ li{
   background: green;
 }
 
+/* 自作の問題 */
 .food{
   position: relative;
 }
 
-/* 自作の問題 */
 .picture{
   position: absolute;
   width: 300px;
@@ -109,21 +109,22 @@ li{
 
 /* 練習問題 */
 .site{
+  display: block;
   position: relative;
+  top: 350px;
 }
 
-.picture{
-  /* margin: 0 0 0 auto; */
+.picture01{
+  position: absolute;
   width: 50%;
-  display: block;
-  
+  display: inline; 
 }
 
 .language{
   position: absolute;
   font-size: 50px;
-  margin-top: 50%;
-  margin-left: 20%;
+  top: 50%;
+  left: 20%;
   font-weight: bold;
 }
 
