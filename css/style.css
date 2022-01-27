@@ -109,18 +109,20 @@ li{
 
 /* 練習問題 */
 .site{
-  display: block;
   position: relative;
+  /* display: block; */
   top: 350px;
 }
 
 .picture01{
-  position: absolute;
+  /* position: absolute; */
   width: 50%;
-  display: inline; 
+  /* margin: 0 0 0 auto; */
+  top: 50%;
+  /* display: inline;  */
 }
 
-.language{
+.site p{
   position: absolute;
   font-size: 50px;
   top: 50%;
